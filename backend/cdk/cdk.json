@@ -1,0 +1,9 @@
+{
+    "app": "node app.js",
+    "context": {
+        "TRACKER": "PizzaDeliveryTracker",
+        "TRACKER_ARN": "arn:aws:geo:AWS-REGION:ACCOUNT-ID:tracker/PizzaDeliveryTracker",
+        "SQS_QUEUE_URL": "https://sqs.AWS-REGION.amazonaws.com/ACCOUNT-ID/SQS-QUEUE-NAME-HERE",
+        "SQS_ARN": "arn:aws:sqs:AWS-REGION:ACCOUNT-ID:SQS-QUEUE-NAME-HERE"
+    }
+}

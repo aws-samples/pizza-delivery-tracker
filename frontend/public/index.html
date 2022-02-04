@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pizza Delivery Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.amplify.aws/packages/maplibre-gl/1.15.2/maplibre-gl.css" rel="stylesheet" integrity="sha384-DrPVD9GufrxGb7kWwRv0CywpXTmfvbKOZ5i5pN7urmIThew0zXKTME+gutUgtpeD" crossorigin="anonymous" referrerpolicy="no-referrer"></link>
+    <style>
+      body { margin: 0; padding: 0; }
+      #map { position: absolute; top: 0; bottom: 0; width: 100% }
+      button.hungry { margin-top: 1em; padding: 1em; }
+      div.pizza_places-source-points-layer-unclustered-point-popup-address { text-align: center; }
+      .marker {
+        background-size: contain;
+        display: block;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        padding: 0;
+        width: 70px;
+        height: 70px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="app-body">
+      <div id="map"></div>
+    </div>
+    <script src="main.bundle.js"></script>
+  </body>
+</html>

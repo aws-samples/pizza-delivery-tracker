@@ -1,0 +1,19 @@
+node_modules/
+
+*.swp
+__pycache__
+.pytest_cache
+.env
+.venv
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
