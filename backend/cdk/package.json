@@ -2,11 +2,11 @@
   "name": "pizza-delivery-tracker-backend",
   "version": "0.1.0",
   "dependencies": {
-    "@aws-cdk/aws-apprunner": "^1.140.0",
-    "@aws-cdk/aws-dynamodb": "^1.140.0",
-    "@aws-cdk/aws-ecr-assets": "^1.140.0",
-    "@aws-cdk/aws-location": "^1.140.0",
-    "@aws-cdk/core": "^1.140.0",
+    "@aws-cdk/aws-apprunner": "^1.182.0",
+    "@aws-cdk/aws-dynamodb": "^1.182.0",
+    "@aws-cdk/aws-ecr-assets": "^1.182.0",
+    "@aws-cdk/aws-location": "^1.182.0",
+    "@aws-cdk/core": "^1.182.0",
     "constructs": "^10.0.0",
     "path": "^0.12.7"
   }
