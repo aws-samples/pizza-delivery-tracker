@@ -6,9 +6,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.540.0",
-    "@aws-sdk/client-location": "^3.540.0",
-    "@aws-sdk/client-sqs": "^3.540.0",
+    "@aws-sdk/client-dynamodb": "^3.995.0",
+    "@aws-sdk/client-location": "^3.995.0",
+    "@aws-sdk/client-sqs": "^3.995.0",
     "@aws-sdk/util-dynamodb": "^3.45.0",
     "cors": "^2.8.5",
     "express": "^4.22.1",
